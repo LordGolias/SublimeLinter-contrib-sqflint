@@ -17,7 +17,7 @@ class Sqflint(PythonLinter):
     """Provides an interface to sqflint."""
 
     syntax = 'sqf'
-    cmd = 'sqflint@python3'
+    cmd = 'sqflint@python'
     regex = '\[(?P<line>\d+),(?P<column>\d+)\]:(?:(?P<error>error)|(?P<warning>warning|info)):(?P<message>.*\r?)'
     multiline = False
     line_col_base = (1, 1)
