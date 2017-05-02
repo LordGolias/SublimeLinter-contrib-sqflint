@@ -1,27 +1,24 @@
-SublimeLinter-contrib-sqflint
-================================
+# SublimeLinter - SQF Lint
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [sqflint][sqflint].
+<a href="https://packagecontrol.io/packages/sqflint">
+    <img src="https://packagecontrol.herokuapp.com/downloads/sqflint.svg">
+</a>
 
-SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
+Linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org/en/latest) for Sublime Text 3 providing an interface to [SQF Linter][sqflinter].
 
 ### Installation
 
-1. Install SublimeLinter 3 (instructions [here][installation]).
+- **Preparation:**
+    - Install [SublimeLinter](http://sublimelinter.readthedocs.org/en/latest/installation.html) for Sublime Text 3
+    - Install [Python 3](http://python.org/download/) (and [pip](http://www.pip-installer.org/en/latest/installing.html) if not included).
+    - Download [SQF Linter][sqflinter]
+    - Navigate to SQF Linter root directory and install it with `pip install .`
 
-1. Install [Python 3](http://python.org/download/) and [pip](http://www.pip-installer.org/en/latest/installing.html).
+- **Automated:** [SQF Lint](https://sublime.wbond.net/packages/sqflint) using [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
+- **Manual:** Clone this repository into your `Sublime Text x/Packages`
 
-2. Download [sqf][sqflint] and unpack it.
+### Usage
 
-3. Install `sqf` by going to the `sqf` directory and running
-   ```
-   pip install .
-   ```
+Refer to [SublimeLinter usage](http://sublimelinter.readthedocs.io/en/latest/usage.html)
 
-4. Install this plugin.
-
-[installation]: http://sublimelinter.readthedocs.org/en/latest/installation.html
-[settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html
-[linter-settings]: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
-[inline-settings]: http://sublimelinter.readthedocs.org/en/latest/settings.html#inline-settings
-[sqflint]: https://github.com/LordGolias/sqf
+[sqflinter]: https://github.com/LordGolias/sqf
