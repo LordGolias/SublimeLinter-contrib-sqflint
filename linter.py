@@ -10,7 +10,7 @@
 
 """This module exports the Sqflint plugin class."""
 
-from SublimeLinter.lint import PythonLinter, util
+from SublimeLinter.lint import PythonLinter
 
 
 class Sqflint(PythonLinter):
