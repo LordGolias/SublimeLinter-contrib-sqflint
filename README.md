@@ -1,7 +1,7 @@
 SublimeLinter-contrib-sqflint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-sqflint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-sqflint)
+[![Build Status](https://travis-ci.org/LordGolias/SublimeLinter-contrib-sqflint.svg?branch=master)](https://travis-ci.org/LordGolias/SublimeLinter-contrib-sqflint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [sqflint](https://github.com/LordGolias/sqf). It will be used with files that have the “sqf” syntax.
 
