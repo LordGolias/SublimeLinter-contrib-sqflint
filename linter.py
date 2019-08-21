@@ -16,6 +16,6 @@ from SublimeLinter.lint import PythonLinter
 class Sqflint(PythonLinter):
     """Provides an interface to sqflint."""
 
-    syntax = 'sqf'
+    defaults = {'selector': 'source.sqf'}
     cmd = 'sqflint@python'
     regex = '\[(?P<line>\d+),(?P<column>\d+)\]:(?:(?P<error>error)|(?P<warning>warning|info)):(?P<message>.*\r?)'
