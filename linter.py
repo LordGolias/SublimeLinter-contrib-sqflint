@@ -18,4 +18,4 @@ class Sqflint(PythonLinter):
 
     defaults = {'selector': 'source.sqf'}
     cmd = 'sqflint@python'
-    regex = '\[(?P<line>\d+),(?P<column>\d+)\]:(?:(?P<error>error)|(?P<warning>warning|info)):(?P<message>.*\r?)'
+    regex = r'\[(?P<line>\d+),(?P<column>\d+)\]:(?:(?P<error>error)|(?P<warning>warning|info)):(?P<message>.*\r?)'
